@@ -1,7 +1,9 @@
 
 import benjiePhoto from "../assets/benjie.jpg";
-import aizelPhoto from "../assets/aizel.jpg";
-import hyanileePhoto from "../assets/hyanilee.jpg";
+import aizelPhoto from "../assets/Aizel.jpg";
+import hyanileePhoto from "../assets/Hyanilee.jpg";
+
+
 
 function Members() {
   const members = [
