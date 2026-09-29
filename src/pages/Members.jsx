@@ -61,7 +61,7 @@ function Members() {
           </h1>
 
           <p>
-            Get to know the three students behind THREESTACK.
+            Get to know the three students behind TREESTACK.
             We work together, share ideas, and develop our
             Information Technology skills through projects
             and continuous learning.
@@ -125,7 +125,7 @@ function Members() {
               <div className="member-card-line"></div>
 
               <span className="member-brand">
-                THREESTACK
+                TREESTACK
               </span>
 
             </article>

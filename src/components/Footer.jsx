@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer-logo">
   <img
     src={logo}
-    alt="THEESTACK Logo"
+    alt="TREESTACK Logo"
   />
 </div>
 
@@ -22,7 +22,7 @@ function Footer() {
         <div className="footer-bottom">
           <p>
         
-     © {new Date().getFullYear()} THREESTACK.
+     © {new Date().getFullYear()} TREESTACK.
             All rights reserved.
           </p>
         </div>

@@ -17,7 +17,7 @@ function Contact() {
 
           <p>
             Have a question, project idea, or want to learn
-            more about THREESTACK? You can reach out using
+            more about TREESTACK? You can reach out using
             the information below.
           </p>
         </div>
@@ -92,7 +92,7 @@ function Contact() {
             </div>
 
             <span className="contact-message-label">
-              THEESTACK
+              TREESTACK
             </span>
 
             <h2>

@@ -7,7 +7,7 @@ function About() {
         {/* Heading */}
         <div className="about-heading">
           <span className="about-label">
-            ABOUT THEESTACK
+            ABOUT TREESTACK
           </span>
 
           <h1>
@@ -16,7 +16,7 @@ function About() {
           </h1>
 
           <p>
-            THEESTACK is an Information Technology student
+            TREESTACK is an Information Technology student
             organization focused on learning, collaboration,
             creativity, and developing practical technology
             skills through academic and collaborative projects.

@@ -12,11 +12,11 @@ return ( <section className="home-section"> <div className="container home-conta
 
       <h1>
         Welcome to Our
-        <span>THREESTACK</span>
+        <span>TREESTACK</span>
       </h1>
 
       <p>
-        THREESTACK is an Information Technology student
+        TREESTACK is an Information Technology student
         organization focused on teamwork, programming,
         technology, and collaborative projects. We work
         together to improve our technical skills and
@@ -47,7 +47,7 @@ return ( <section className="home-section"> <div className="container home-conta
   <div className="avatar-circle">
     <img
       src={logo}
-      alt="THREESTACK Logo"
+      alt="TREESTACK Logo"
       className="home-logo-image"
     />
   </div>

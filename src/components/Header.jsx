@@ -52,13 +52,13 @@ function Header({ activePage, setActivePage }) {
        <button
 className="logo"
 onClick={() => handleNavigation("Home")}
-aria-label="THEESTACK Home"
+aria-label="TREESTACK Home"
 
 >
 
 <img
  src={logo}
- alt="THEESTACK Logo"
+ alt="TREESTACK Logo"
 /> </button>
 
 
