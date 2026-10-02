@@ -1,8 +1,8 @@
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -11,6 +11,19 @@ import Contact from "./pages/Contact";
 
 function App() {
   const [activePage, setActivePage] = useState("Home");
+
+  // Always start every main page at the top
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, [activePage]);
+
+  const changePage = (page) => {
+    setActivePage(page);
+  };
 
   const renderPage = () => {
     switch (activePage) {
@@ -27,16 +40,16 @@ function App() {
         return <Contact />;
 
       case "Home":
-default:
-return <Home setActivePage={setActivePage} />;
-   }
+      default:
+        return <Home setActivePage={changePage} />;
+    }
   };
 
   return (
     <>
       <Header
         activePage={activePage}
-        setActivePage={setActivePage}
+        setActivePage={changePage}
       />
 
       <main>{renderPage()}</main>
